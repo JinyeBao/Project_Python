@@ -5,9 +5,6 @@ Created on Tue Aug 16 18:10:26 2022
 
 @author: zhoujianfeng
 """
-
-#Greedy Algorithms
-#Q1
 import math
 def get_max_profit(stock_prices):
     if len(stock_prices) < 2:
@@ -22,7 +19,7 @@ def get_max_profit(stock_prices):
 stock_prices = [10,7,5,8,9,11,12]
 print(get_max_profit(stock_prices))
 
-#Q2
+
 def get_max_product(list_of_ints):
     if len(list_of_ints) < 3:
         return False
@@ -42,7 +39,7 @@ def get_max_product(list_of_ints):
 s = [-10,7,5,8,9,-11,-12]    
 print(get_max_product(s))
     
-#Q3
+
 def get_products_of_all_ints_except_at_index(list_int):
     list_product = []
     for i in range(len(list_int)):
