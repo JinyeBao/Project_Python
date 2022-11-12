@@ -1,9 +1,10 @@
-This project consist 3 tasks
-# Friendship Paradox
+# This project consist 3 tasks, you could find my coding report in the report with my discussion of the data and limitations of the report.
+## Other codings and files needed I also put in this project alongside to use.
+## Friendship Paradox
 Task description : This task is designed to find whether the _friendship paradox_ is observed in the data given. Friendship paradox states that "most people have fewer friends than their friends have, on average". We use collaborators(persons who published paper together) to replace friend in this task. To find the relationship between the number of collaborators each author has and the average number of collaborators each author's collaborators have, i write codes  and plot some graphs as following.
 
-# Machine Learning
+## Machine Learning
 Task description:This is designed to be a continuation of PS11, which introduced a new class called LearningPlayer(). In this class, players will 'reward' the winning choices and "punish" the losing choices to make his/her choices more reasonable. Initially, like naive players, the players will random choose between 1, 2 and 3. However, unlike the naive players who assign equal probability to all 3 choices (1, 2, 3 sticks), the learning players increase the probability of selecting the winning choice and reduce the probability of the losing choice. Then, play the game for 1000 times as in PS11 by assigning one player-Learning player, another player- Smart player or Naive player, then we print the winning percentage of 2 players respectively to see whether the learning player is a good strategy.
 
-# Covid_19 data analysis
+## Covid_19 data analysis
 Task description: By using the data from 'https://github.com/owid/covid-19-data/tree/master/public/data' to compare some data differences about covid-19 between the two countries. I choose Germany and Japan. I first select the new_cases every day as the particular variable to evaluate, because i think this variable can have more extensions to evaluate later. Then i use total_cases, total_cases_per_million, new_cases_per_million and stringency_index to evaluate as all.
