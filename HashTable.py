@@ -5,9 +5,6 @@ Created on Tue Aug 16 17:12:59 2022
 
 @author: zhoujianfeng
 """
-
-#Hash Table
-#Q1
 def MovieChooser (flight_length, movie_lengths):
     for i in range(0, len(movie_lengths)):
         for j in range(i+1, len(movie_lengths)):
@@ -22,7 +19,6 @@ print (MovieChooser(fl,ml))
 
 
 
-#Q2
 def PermutationPanlindrome(str_1):
     str_2 = set()
     for i in str_1:
@@ -41,7 +37,9 @@ print(PermutationPanlindrome('ivicc'))
 print(PermutationPanlindrome('civil'))       
 print(PermutationPanlindrome('livci'))           
 
-#Q3(Regular expression operation)
+
+
+
 import re
 #result = re.sub(pattern, repl, string, count=0, flags=0)
 def WordCloud(sample):
