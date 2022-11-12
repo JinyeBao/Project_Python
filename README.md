@@ -1,1 +1,2 @@
-# Project1
+# Friendship Paradox
+Task description : Task 1 is designed to find whether the _friendship paradox_ is observed in the data given. Friendship paradox states that "most people have fewer friends than their friends have, on average". We use collaborators(persons who published paper together) to replace friend in this task. To find the relationship between the number of collaborators each author has and the average number of collaborators each author's collaborators have, i write codes  and plot some graphs as following.
